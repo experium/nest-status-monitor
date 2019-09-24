@@ -1,12 +1,12 @@
 {
-  "name": "nest-status-monitor",
-  "version": "0.1.1",
+  "name": "experium-nest-status-monitor",
+  "version": "0.1.3",
   "description": "Realtime Monitoring for Express-based Node applications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/GenFirst/nest-status-monitor.git"
+    "url": "git+ssh://git@github.com/experium/nest-status-monitor.git"
   },
   "author": "ivanvs <robince885@gmail.com>",
   "license": "MIT",
@@ -65,10 +65,13 @@
     "testEnvironment": "node"
   },
   "bugs": {
-    "url": "https://github.com/GenFirst/nest-status-monitor/issues"
+    "url": "https://github.com/experium/nest-status-monitor/issues"
   },
-  "homepage": "https://github.com/GenFirst/nest-status-monitor#readme",
+  "homepage": "https://github.com/experium/nest-status-monitor#readme",
   "directories": {
     "example": "examples"
+  },
+  "publishConfig": {
+    "registry":"https://npm.dev.experium.net"
   }
 }
